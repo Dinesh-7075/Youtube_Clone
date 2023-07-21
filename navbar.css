@@ -189,6 +189,7 @@
   }
   .logo {
     margin: -1px 5px;
+    width:10px;
   }
   .search-btn {
     height: 30px;
