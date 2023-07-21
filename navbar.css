@@ -161,7 +161,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width:320px) and (max-width:480px) {
   .left {
     width: 10%;
     color: aliceblue;
