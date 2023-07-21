@@ -163,10 +163,15 @@
 
 @media screen and (max-width: 500px) {
   .left {
-    width: 10%;
+/*     width: 10%;
+    color: aliceblue;
+    display: flex;
+    margin-left: 12px; */
+    width: 20%;
     color: aliceblue;
     display: flex;
     margin-left: 12px;
+    margin-right: 20px;
   }
   .right {
     display: none;
