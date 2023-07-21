@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="icon" href="https://www.youtube.com/s/desktop/afaf5292/img/favicon_144x144.png" sizes="144x144">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="left">
+            <a id="toggle-link">
+                <div class="toggle-btn">
+                    <img class="menu-btn" src="./images/menu.png">
+                </div>
+            </a>
+            <img src="./images/Logo.png" class="logo" alt="" title="YouTube Home">
+        </div>
+
+        <div class="middle">
+            <div class="search-box">
+                <form class="search-box">
+                    <input type="text" class="search-bar" id="searchBoxValue" placeholder="search">
+                    <button class="search-btn" type="submit" title="Search">
+                        <!-- <img src="./images/search.png" alt=""> -->
+                        <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24"
+                            focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;">
+                            <path
+                                d="m20.87 20.17-5.59-5.59C16.35 13.35 17 11.75 17 10c0-3.87-3.13-7-7-7s-7 3.13-7 7 3.13 7 7 7c1.75 0 3.35-.65 4.58-1.71l5.59 5.59.7-.71zM10 16c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z">
+                            </path>
+                        </svg>
+                    </button>
+                </form>
+                <button id="micIcon">
+                    <img src="./images/micIcon.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="user-options">
+                <img src="./images/create.png" class="icon" id="create" alt="">
+                <img src="./images/navHug.png" class="icon" alt="">
+                <img src="./images/notificationBell.png" class="icon" alt="">
+                <div class="user-dp">
+                    <img src="./images/user_icon.png" alt="">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- sidebar -->
+    <div class="side-bar">
+        <a href="#" class="links active"><img src="./images/home.png" alt="">Home</a>
+        <a href="#" class="links"><img src="./images/youtube-shorts.png" alt="">Shorts</a>
+        <a href="#" class="links"><img src="./images/subscriptions-fill.png" alt="">Subscriptions</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="./images/library.png" alt="">Library</a>
+        <a href="#" class="links"><img src="./images/history.png" alt="">History</a>
+        <a href="#" class="links"><img src="images/watchLater.png" alt="">Watch later</a>
+        <a href="#" class="links"><img src="./images/liked.png" alt="">Liked videos</a>
+        <hr class="seperator">
+        <span id="explore">Explore</span>
+        <a href="#" class="links"><img src="images/trends.png" alt="">Trending</a>
+        <a href="#" class="links"><img src="images/bag.png" alt="">Shopping</a>
+        <a href="#" class="links"><img src="images/music-white.png" alt="">Music</a>
+        <a href="#" class="links"><img src="images/clapperboard.png" alt="">Movies</a>
+        <a href="#" class="links"><img src="images/live-fill.png" alt="">Live</a>
+        <a href="#" class="links"><img src="images/gaming-fill.png" alt="">Gaming</a>
+        <a href="#" class="links"><img src="images/news-white.png" alt="">News</a>
+        <a href="#" class="links"><img src="images/sports.png" alt="">Sports</a>
+        <a href="#" class="links"><img src="images/bulb.png" alt="">Learning</a>
+        <a href="#" class="links"><img src="images/towels.png" alt="">Fashion & Beauty</a>
+        <hr class="seperator">
+        <span id="explore">More from YouTube</span>
+        <a href="#" class="links"><img src="images/youtube.png" alt="">YouTube Premium</a>
+        <a href="#" class="links"><img src="images/play.png" alt="">YouTube Music</a>
+        <a href="#" class="links"><img src="images/youtube-kids.png" alt="">YouTube Kids</a>
+        <hr class="seperator">
+        <a href="#" class="links"><img src="images/settings.png" alt="">Settings</a>
+        <a href="#" class="links"><img src="images/report-fill.png" alt="">Report history</a>
+        <a href="#" class="links"><img src="images/help.png" alt="">Help</a>
+        <a href="#" class="links"><img src="images/feedback.png" alt="">Send feedback</a>
+        <hr class="seperator">
+        <div id="footer">
+            <div>
+                <a href="#">About</a>
+                <a href="#" style="text-decoration: none;">Press</a>
+                <a href="#">Copyright</a>
+                <a href="#" style="text-decoration: none;">Contact us</a>
+                <a href="#" style="text-decoration: none;">Creators</a>
+                <a href="#" style="text-decoration: none;">Advertise</a>
+                <a href="https://developers.google.com/youtube" style="text-decoration: none;">Developers</a>
+            </div>
+            <div id="guide-links-secondary">
+                <a href="#" style="text-decoration: none;">Terms</a>
+                <a href="#" style="display: none;">Privacy</a>
+                <a href="https://www.youtube.com/about/policies/" style="text-decoration: none;">Policy &amp; Safety</a>
+                <br>
+                <a href="https://www.youtube.com/howyoutubeworks?utm_campaign=ytgen&amp;utm_source=ythp&amp;utm_medium=LeftNav&amp;utm_content=txt&amp;u=https%3A%2F%2Fwww.youtube.com%2Fhowyoutubeworks%3Futm_source%3Dythp%26utm_medium%3DLeftNav%26utm_campaign%3Dytgen"
+                    style="text-decoration: none;">How YouTube works</a> <br>
+                <a href="#" style="text-decoration: none;">Test new features</a>
+            </div>
+
+            <div style="text-decoration: none;">
+                <div id="copyright" dir="ltr">© 2023 Google LLC</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- toggling SideBar -->
+    <div class="toggle-side-barHidden" id="hiddenSideBar">
+        <a href="#" class="toggled-links active"><img style="text-align: center" src="./images/home.png" alt="">
+            <p>Home</p>
+        </a>
+        <a href="#" class="toggled-links"><img style="width:26px; height: 30px;" src="./images/youtube-shorts.png"
+                alt="">
+            <p>Shorts</p>
+        </a>
+        <a href="#" class="toggled-links"><img src="./images/subscriptions-fill.png" alt="">
+            <p>Subscriptions</p>
+        </a>
+        <a href="#" class="toggled-links"><img src="./images/library.png" alt="">
+            <p>Library</p>
+        </a>
+    </div>
+
+    <!-- filters -->
+    <div class="filters">
+        <button class="filter-options active">All</button>
+        <button class="filter-options">Trending</button>
+        <button class="filter-options">Music</button>
+        <button class="filter-options">Mixes</button>
+        <button class="filter-options">Live</button>
+        <button class="filter-options">Sports</button>
+        <button class="filter-options">Javascript</button>
+        <button class="filter-options">Entertainment</button>
+        <button class="filter-options">News</button>
+        <button class="filter-options">Telugu Cinema</button>
+        <button class="filter-options">Filmi</button>
+        <button class="filter-options">Recently uploaded</button>
+        <button class="filter-options">Posts</button>
+        <button class="filter-options">New to you</button>
+        <button class="filter-options">Marvel</button>
+        <button class="filter-options">Badminton</button>
+    </div>
+
+    <!-- videos -->
+    <div class="video-container">
+        <!-- <div class="video">
+            <img src="images/Jack.png" class="thumbnail" alt="">
+            <div class="content">
+                <img src="./images/Jack.png"class="channel-icon" alt="">
+                <div class="info">
+                    <h4 class="title">youtube clone 2021 | create working youtube clone</h4>
+                    <p class="channel-name">modern web</p>
+                    <p #id="veiws"><span>14.k veiws</span>.<span>2 years ago</span></p>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="async.js"></script>
+</body>
+
+</html>
