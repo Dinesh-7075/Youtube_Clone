@@ -195,3 +195,15 @@
     width: 40px;
   }
 }
+@media screen and (max-width: 300px)
+  .left {
+    width: 0%;
+    color: aliceblue;
+    display: flex;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+  .logo {
+    margin: -1px 4px;
+}
+}
