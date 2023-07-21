@@ -172,7 +172,9 @@
     display: none;
   }
   .middle {
-    width: 74%;
+    width: 60%;
+    position: fixed;
+    left: 130px;
     display: flex;
     align-items: center;
   }
