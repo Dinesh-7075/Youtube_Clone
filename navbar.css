@@ -161,7 +161,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 480px) {
   .left {
     width: 10%;
     color: aliceblue;
@@ -178,7 +178,7 @@
   }
   .search-box {
     position: relative;
-    max-width: 300px;
+    max-width: 350px;
     height: 30px;
   }
   #micIcon {
@@ -188,7 +188,7 @@
     height: 30px;
   }
   .logo {
-    margin: -1px 10px -1px 0px;
+    margin: -1px 5px;
   }
   .search-btn {
     height: 30px;
