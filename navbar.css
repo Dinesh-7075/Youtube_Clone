@@ -161,7 +161,7 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 500px) {
   .left {
     width: 10%;
     color: aliceblue;
@@ -172,7 +172,7 @@
     display: none;
   }
   .middle {
-    width: 40%;
+    width: 70%;
     display: flex;
     align-items: center;
   }
@@ -189,25 +189,9 @@
   }
   .logo {
     margin: -1px 5px;
-    width:10px;
   }
   .search-btn {
     height: 30px;
     width: 40px;
   }
-  .toggle-side-barHidden {
-    display:none;
-}
-}
-@media screen and (max-width: 300px) {
-  .left {
-    width: 0%;
-    color: aliceblue;
-    display: flex;
-    margin-left: -20px;
-    margin-right: 20px;
-}
-  .logo {
-    margin: -1px 4px;
-}
 }
