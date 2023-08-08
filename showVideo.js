@@ -12,6 +12,7 @@ async function getComments() {
     method: "get",
   });
   const data = await response.json();
+  console.log(data);
   const comments = data.items;
   renderComments(comments);
 }
@@ -20,7 +21,13 @@ function renderComments(comments) {
   commentsContainer.innerHTML = "";
   comments.forEach((comment) => {
     commentsContainer.innerHTML += `
-        <p>${comment.snippet.topLevelComment.snippet.textDisplay}</p><br>
+       <div id="comments-container" style="display:flex;">
+        <div><img src="${comment.snippet.topLevelComment.snippet.authorProfileImageUrl}"></img></div>
+        <div style="flex-direction:column">
+        <b>${comment.snippet.topLevelComment.snippet.authorDisplayName}</b>
+        <div><p>${comment.snippet.topLevelComment.snippet.textDisplay}</p></div>
+        </div>
+      </div>
     `;
   });
 }

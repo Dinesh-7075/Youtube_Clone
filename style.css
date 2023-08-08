@@ -339,3 +339,23 @@ body {
   grid-template-columns: repeat(1, 100%);
 }
 }
+
+#comments-container {
+  display:flex;
+  padding:10px;
+  align-content: center;
+}
+#comments-container img {
+  border-radius: 50%;
+}
+#comments-container b{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+#comments-container p{
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
