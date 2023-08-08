@@ -161,7 +161,7 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (min-width:320px) and (max-width:480px) {
   .left {
     width: 10%;
     color: aliceblue;
@@ -172,7 +172,9 @@
     display: none;
   }
   .middle {
-    width: 70%;
+    width: 60%;
+    position: fixed;
+    left: 130px;
     display: flex;
     align-items: center;
   }
@@ -188,7 +190,7 @@
     height: 30px;
   }
   .logo {
-    margin: -1px 5px;
+    margin: -1px -1px;
   }
   .search-btn {
     height: 30px;
