@@ -159,7 +159,7 @@ const makeVideoCard = (data) => {
 //Open YouTube Video function
 function openVideoDetails(videoId) {
   localStorage.setItem("videoId", videoId);
-  window.open("/videoDetails.html");
+  window.open("./videoDetails.html");
 }
 
 //Formatting the ViewsCount Number
